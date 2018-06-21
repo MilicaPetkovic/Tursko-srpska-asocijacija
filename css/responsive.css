@@ -1,0 +1,204 @@
+@media only screen and (max-width: 1200px) {
+	#menu-button {
+	    display: block;
+	}
+
+	.top-nav {
+	    display: none;
+	}
+
+	.primary-nav ul li:hover a {
+		background-color: transparent;
+	}
+
+	/*index*/
+	#menu-button {
+		background-image: linear-gradient(to bottom, #d41e24, #8a1a1c);
+		padding: 15px;
+	}
+
+	.slider {
+		margin-top: 0;
+	}
+
+	#menu-button i {
+		font-size: 25px;
+		color: #fff;
+	}
+
+	.slider-box p {
+		font-size: .7em;
+	}
+
+	.button {
+		padding: 5px 15px;
+	}
+
+	.update-content {
+		margin-bottom: 30px;
+	}
+
+	.updates-box-img {
+		margin-bottom: 30px;
+	} 
+
+}
+
+@media only screen and (max-width: 960px) {
+	.top-lang a {
+		display: inline-block;
+	}
+
+	/*----single page----*/
+
+	.video-holder {
+		height: 450px;
+	}
+
+	.video-holder iframe {
+		height: 100%;
+	}
+
+	.top-lang img {
+		width: 20px;
+		margin-left: 10px;
+	}
+
+	.updates-box-img {
+		margin-top: 50px;
+	}
+
+}
+
+@media only screen and (max-width: 790px) {
+	.fa-twitter {
+		padding: 10px;
+		font-size: 14px;
+	}
+
+	.fa-facebook {
+		padding: 10px 13px;
+		font-size: 14px;
+	}
+
+	.content-info-imgs img {
+		margin-bottom: 15px;
+	}
+
+	.icon-bar {
+		z-index: 225;
+	}
+
+	.slider {
+		height: 200px;
+	}
+
+	.swiper-slide img {
+		object-fit: cover;
+		height: 100%;
+	}
+
+	.partners-img-holder img {
+		margin: 0 auto 15px;
+	}
+
+	.partners h2 {
+		text-align: center;
+	}
+
+	aside h2 {
+		text-align: center;
+		margin-top: 25px;
+	}
+
+	.gallery-thumb img:nth-child(4n) {
+		margin-right: 25px;
+	}
+
+	.link-img {
+		max-width: 270px;
+		margin: 0 auto;
+	}
+
+	.header-button {
+		margin-left: 35px;
+	}
+
+	a.button.red-button {
+		margin: 0 auto;
+	}
+
+	.archive {
+		padding-bottom: 60px;
+	}
+
+}
+
+@media only screen and (max-width: 760px) {
+	.membership-content img {
+		margin: 0 auto;
+	}
+
+	.membership-content {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.update-content img {
+		margin: 0 auto;
+	}
+
+	.update-content {
+		text-align: center;
+	}
+
+	.updates h2 {
+		text-align: center;
+	}
+}
+
+@media (max-width: 575.98px) { 
+	.content-info-imgs img {
+		margin: 0 auto 15px;
+	}
+
+	.privacy p {
+		font-size: 12px;
+	}
+
+	.video-holder {
+		height: 350px;
+	}
+
+	.video-holder iframe {
+		height: 100%;
+	}
+
+	.slider {
+		height: 200px;
+	}
+
+	.swiper-slide img {
+		object-fit: cover;
+		height: 100%;
+	}
+
+	.partners-img-holder img {
+		margin: 0 auto 15px;
+	}
+
+	a.slider-button {
+		width: 45%;
+		padding: 5px 0 5px 0;
+		width: 30%;
+	}
+
+	.privacy {
+		margin-left: 20px;
+	}
+
+	.header-button a.button {
+		font-size: 12px;
+	}
+
+}
